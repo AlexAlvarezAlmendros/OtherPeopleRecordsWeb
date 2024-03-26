@@ -1,0 +1,42 @@
+﻿@page "/login"
+@using Microsoft.AspNetCore.Identity
+@inject ISnackbar Snackbar
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+@inject SignInManager<IdentityUser> SignInManager
+@inject NavigationManager NavigationManager
+<MudContainer Class="d-flex flex-column justify-center align-center ma-0 pa-0" Style="width:100%; height:96vh; margin-top:40px!important; max-width: 90%">
+<MudPaper Class="pa-4">
+    <MudText Typo="Typo.h5">Iniciar sesión</MudText>
+    <EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
+            <MudTextField Label="Email" @bind-Value="loginModel.Email" />
+            <MudTextField Label="Contraseña" @bind-Value="loginModel.Password"  InputType="InputType.Password" />
+        <MudButton ButtonType="ButtonType.Submit" Color="Color.Primary">Login</MudButton>
+    </EditForm>
+</MudPaper>
+</MudContainer>
+
+@code {
+    private LoginModel loginModel = new();
+
+    private async Task HandleLogin()
+    {
+        try
+        {
+            var user = await UserManager.FindByEmailAsync(loginModel.Email);
+            if (user != null)
+            {
+                var result = await SignInManager.CheckPasswordSignInAsync(user, loginModel.Password, false);
+                if (result.Succeeded)
+                {
+                    NavigationManager.NavigateTo($"/login-middleware?email={loginModel.Email}", forceLoad: true);
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            // Log the exception details
+            Snackbar.Add("Ocurrió un error durante el proceso de login.", Severity.Error);
+        }
+    }
+}

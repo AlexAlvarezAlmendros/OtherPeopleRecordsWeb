@@ -1,0 +1,89 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager nav
+
+<MudThemeProvider Theme="OTPTheme" />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<PageTitle>OtherPeopleRecords</PageTitle>
+
+<div class="page mud-theme-primary">
+    @*
+    <div class="sidebar">
+        <NavMenu />
+    </div> *@
+
+    <main>
+        <CascadingAuthenticationState>
+        <MudAppBar Style="background-color: rgba(0, 0, 0, 0.3); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);" Fixed="true" Dense="true" Elevation="1">
+            <MudIconButton OnClick="@(()=>nav.NavigateTo("/"))" Icon="@Iconos.OTPLogo" Color="Color.Inherit" Edge="Edge.Start" />
+            <MudSpacer />
+            <MudStack Row="true">
+                <MudButton OnClick="@(()=>nav.NavigateTo("/"))" Size="Size.Small" Variant="Variant.Text" Color="Color.Info">INICIO</MudButton>
+                <MudButton OnClick="@(()=>nav.NavigateTo("/artists"))" Size="Size.Small" Variant="Variant.Text" Color="Color.Info">ARTISTAS</MudButton>
+                <MudButton OnClick="@(()=>nav.NavigateTo("/events"))" Size="Size.Small" Variant="Variant.Text" Color="Color.Info">EVENTOS</MudButton>
+                <MudButton OnClick="@(()=>nav.NavigateTo("/studios"))" Size="Size.Small" Variant="Variant.Text" Color="Color.Info">ESTUDIOS</MudButton>
+                <MudButton OnClick="@(()=>nav.NavigateTo("/contact"))" Size="Size.Small" Variant="Variant.Text" Color="Color.Info">CONTACTO</MudButton>
+            </MudStack>
+            <MudSpacer />
+            <LoginDisplay />
+        </MudAppBar>
+        <MudContainer Class="d-flex justify-center align-center content ma-0 pa-0 mud-theme-primary" Style="width:100%; max-width: 100vw;">
+            @Body
+        </MudContainer>
+        </CascadingAuthenticationState>
+    </main>
+</div>
+
+@code{
+    MudTheme OTPTheme = new MudTheme()
+        {
+            Palette = new PaletteLight()
+            {
+                Primary = "#131313", //Negro
+                Secondary = "#9c0000", //Rojo
+                Tertiary = "#4A4A4A", //Gris
+                Info = "#ffffff" //Gris
+            },
+            PaletteDark = new PaletteDark()
+            {
+                Primary = "#131313", //Negro
+                Secondary = "#9c0000", //Rojo
+                Tertiary = "#4A4A4A", //Gris
+                Info = "#ffffff" //Gris
+            },
+
+            LayoutProperties = new LayoutProperties()
+            {
+                DrawerWidthLeft = "260px",
+                DrawerWidthRight = "300px"
+            },
+            Typography = new Typography()
+            {
+                H3 = new H3()
+                {
+                    FontFamily = new[] { "Open Sans" },
+                    FontSize = "5rem",
+                    FontWeight = 500,
+                    LineHeight = 1.6,
+                    LetterSpacing = ".0075em"
+                },
+                H2 = new H2()
+                {
+                    FontFamily = new[] { "Open Sans" },
+                    FontSize = "5rem",
+                    FontWeight = 500,
+                    LineHeight = 1.6,
+                    LetterSpacing = ".0075em"
+                },
+                Button = new Button()
+                {
+                    FontFamily = new[] { "Open Sans" },
+                    FontSize = "1.6rem",
+                    FontWeight = 500,
+                    LineHeight = 1.6,
+                    LetterSpacing = ".0075em"
+                }
+            }
+        };
+}

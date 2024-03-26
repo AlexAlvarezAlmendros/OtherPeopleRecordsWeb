@@ -1,0 +1,36 @@
+﻿@inject NavigationManager nav
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+@inject AuthenticationStateProvider AuthenticationStateProvider
+<AuthorizeView>
+    <Authorized> 
+        <MudStack Row="true">
+            @if (isAuthorizedForControlPanel)
+            {
+                <MudButton Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/controlPanel"))" ButtonType="ButtonType.Submit" Variant="Variant.Outlined">ControlPanel</MudButton>
+            }
+            <MudButton Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/logout", forceLoad: true))" ButtonType="ButtonType.Submit" Variant="Variant.Outlined">Log out</MudButton>
+        </MudStack>
+    </Authorized>
+    <NotAuthorized>
+        <MudStack Row="true">
+            <MudButton Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/login"))" Variant="Variant.Outlined">Log in</MudButton>
+        </MudStack>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code{
+    private bool isAuthorizedForControlPanel = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = await UserManager.GetUserAsync(authState.User);
+
+        if (user != null)
+        {
+            var userRoles = await UserManager.GetRolesAsync(user);
+            isAuthorizedForControlPanel = userRoles.Intersect(new[] { "Admin", "Manager", "Artist" }).Any();
+        }
+    }
+}

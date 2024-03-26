@@ -1,0 +1,36 @@
+﻿@page "/register"
+@using Microsoft.AspNetCore.Identity
+@inject ISnackbar Snackbar
+@inject UserManager<IdentityUser> UserManager
+@inject NavigationManager NavigationManager
+<MudContainer Class="d-flex flex-column justify-center align-center ma-0 pa-0" Style=" width:100%; height:96vh; margin-top:40px!important; max-width: 90%">
+<MudPaper Class="pa-4">
+    <MudText Typo="Typo.h5">Registrarse</MudText>
+    <EditForm Model="@registerModel" OnValidSubmit="HandleRegister">
+            <MudTextField Label="Email" @bind-Value="registerModel.Email" />
+            <MudTextField Label="Contraseña" @bind-Value="registerModel.Password" InputType="InputType.Password" />
+        <MudButton ButtonType="ButtonType.Submit" Color="Color.Primary">Registrar</MudButton>
+    </EditForm>
+</MudPaper>
+</MudContainer>
+@code {
+    private RegisterModel registerModel = new();
+
+    private async Task HandleRegister()
+    {
+        var user = new IdentityUser { UserName = registerModel.Email, Email = registerModel.Email };
+        var result = await UserManager.CreateAsync(user, registerModel.Password);
+        if (result.Succeeded)
+        {
+            await UserManager.AddToRoleAsync(user, "User");
+            NavigationManager.NavigateTo("/login");
+        }
+        else
+        {
+            foreach (var err in result.Errors)
+            {
+                Snackbar.Add(err.Description, Severity.Error);
+            }
+        }
+    }
+}

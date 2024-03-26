@@ -1,0 +1,57 @@
+﻿@page "/assignroles"
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+@inject ISnackbar Snackbar
+@inject RoleManager<IdentityRole> RoleManager
+<MudContainer Class="d-flex flex-column justify-center align-center ma-0 pa-0" Style="width:100%; height:96vh; margin-top:40px!important; max-width: 90%">
+    <MudPaper Class="pa-4">
+        <MudText Typo="Typo.h4">Asignar Roles a Usuarios</MudText>
+
+        <MudSelect T="string" Label="Selecciona un Usuario" @bind-Value="selectedUserId">
+            @foreach (var user in users)
+            {
+                <MudSelectItem Value="@user.Id">@user.Email</MudSelectItem>
+            }
+        </MudSelect>
+
+        <MudSelect T="string" Label="Selecciona un Rol" @bind-Value="selectedRoleId">
+            @foreach (var role in roles)
+            {
+                <MudSelectItem Value="@role.Id">@role.Name</MudSelectItem>
+            }
+        </MudSelect>
+
+        <MudButton OnClick="AssignRole" Color="Color.Primary">Asignar Rol</MudButton>
+    </MudPaper>
+</MudContainer>
+@code {
+    private List<IdentityUser> users = new List<IdentityUser>();
+    private List<IdentityRole> roles = new List<IdentityRole>();
+    private string selectedUserId;
+    private string selectedRoleId;
+
+    protected override async Task OnInitializedAsync()
+    {
+        users = UserManager.Users.ToList();
+        roles = RoleManager.Roles.ToList();
+    }
+
+    private async Task AssignRole()
+    {
+        var user = await UserManager.FindByIdAsync(selectedUserId);
+        var role = await RoleManager.FindByIdAsync(selectedRoleId);
+        if (user != null && role != null)
+        {
+            await UserManager.RemoveFromRolesAsync(user, roles.Select(r => r.Name).ToList());
+            var result = await UserManager.AddToRoleAsync(user, role.Name);
+            if (result.Succeeded)
+            {
+                Snackbar.Add("User Role Assigned.", Severity.Normal);
+            }
+            else
+            {
+                Snackbar.Add("User Role Not Assigned: " + result.Errors, Severity.Error);
+            }
+        }
+    }
+}
