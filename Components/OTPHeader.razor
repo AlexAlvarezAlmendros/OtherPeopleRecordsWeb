@@ -1,0 +1,47 @@
+﻿@implements IDisposable
+<div class="header">
+	<MudImage Class="image1" Style="filter:blur(3px)" Src="Imagenes/header.png" />
+	<MudImage Class="image2" Src="@(indiceanim > 9 ? (indiceanim > 99 ? "Imagenes/logo3d/0" + indiceanim + ".png" : "Imagenes/logo3d/00" + indiceanim + ".png") : "Imagenes/logo3d/000" + indiceanim + ".png")" />
+</div>
+
+@code {
+    private int indiceanim = 1;
+    private bool anim = true;
+    private CancellationTokenSource cts;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            cts = new CancellationTokenSource();
+            _ = RunAnimation(cts.Token);
+        }
+    }
+
+    private async Task RunAnimation(CancellationToken token)
+    {
+        while (!token.IsCancellationRequested)
+        {
+            if (indiceanim < 150)
+            {
+                indiceanim++;
+            }
+            else
+            {
+                indiceanim = 1;
+            }
+
+            await InvokeAsync(StateHasChanged);
+            await Task.Delay(40, token); // Respeta la solicitud de cancelación
+        }
+    }
+
+    void IDisposable.Dispose()
+    {
+        if (cts != null)
+        {
+            cts.Cancel();
+            cts.Dispose();
+        }
+    }
+}

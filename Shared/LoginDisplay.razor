@@ -7,7 +7,7 @@
         <MudStack Row="true">
             @if (isAuthorizedForControlPanel)
             {
-                <MudButton Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/controlPanel"))" ButtonType="ButtonType.Submit" Variant="Variant.Outlined">ControlPanel</MudButton>
+                <MudButton Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/cardeditor"))" ButtonType="ButtonType.Submit" Variant="Variant.Outlined">ControlPanel</MudButton>
             }
             <MudButton Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/logout", forceLoad: true))" ButtonType="ButtonType.Submit" Variant="Variant.Outlined">Log out</MudButton>
         </MudStack>
@@ -15,6 +15,7 @@
     <NotAuthorized>
         <MudStack Row="true">
             <MudButton Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/login"))" Variant="Variant.Outlined">Log in</MudButton>
+            <MudButton Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/register"))" Variant="Variant.Outlined">Register</MudButton>
         </MudStack>
     </NotAuthorized>
 </AuthorizeView>

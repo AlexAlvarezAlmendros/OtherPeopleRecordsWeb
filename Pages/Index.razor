@@ -1,84 +1,38 @@
 ﻿@page "/"
+@using OtherPeopleRecordsWeb.Data
+@inject ApplicationDbContext DbContext
+@inject IJSRuntime JS
+@using Microsoft.EntityFrameworkCore
 @inject NavigationManager nav
-@implements IDisposable
-@using OtherPeopleRecordsWeb.Global
+
+@inject Global global
+
 <PageTitle>Home</PageTitle>
 
 <MudContainer Class="d-flex flex-column justify-center align-center ma-0 pa-0" Style=" width:100%; height:auto; margin-top:40px!important; max-width: 90%">
-	<div class="header">
-		<MudImage Class="image1" Style="filter:blur(3px)" Src="Imagenes/header.png" />
-		<MudImage Class="image2" Src="@(indiceanim > 9 ? (indiceanim > 99 ? "Imagenes/logo3d/0" + indiceanim + ".png" : "Imagenes/logo3d/00" + indiceanim + ".png") : "Imagenes/logo3d/000" + indiceanim + ".png")" />
-	</div>
-	<MudButton IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-end rounded-lg align-end mb-10" Variant="Variant.Filled" EndIcon="@Icons.Material.Filled.ArrowDownward" Color="Color.Tertiary"><MudText Typo="Typo.button">Ultimas Novedades</MudText></MudButton>
-	
-	<MudGrid Style="width:95%;" Class="align-center justify-center ma-0 pa-0">
+	<OTPHeader></OTPHeader>
+    <MudButton OnClick="@(()=>ScrollToBottom())" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-end rounded-lg align-end mb-10" Variant="Variant.Filled" EndIcon="@Icons.Material.Filled.ArrowDownward" Color="Color.Tertiary"><MudText Typo="Typo.button">Ultimas Novedades</MudText></MudButton>
 
-		 <MudItem xs="12" Style="width:95%" Class="d-flex justify-start ma-0">
-			<MudStack Row=true Spacing="14" Class="align-center" Style="width:95%">
-				 <MudImage Style="width:35%; height:auto;" Src="https://otherpeople.es/cdn/shop/files/BRIKS_900x.png?v=1657108163&quot" Elevation="25" Class="rounded-xl" />
-				<MudStack Style="width:40%; height:auto;" Class="align-start">
-					<MudText Class="my-n7" Typo="Typo.h3">Titulo</MudText>
-					<MudText Class="mt-n7" Typo="Typo.h2">Subtitulo</MudText>
-					<MudButton IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-start rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.Spotify" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on Spotify!</MudText></MudButton>
-					<MudButton IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-start rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.Youtube" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on Youtube!</MudText></MudButton>
-					<MudButton IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-start rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.AppleMusic" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on AppleMusic!</MudText></MudButton>
-				</MudStack>
-			</MudStack>
-		</MudItem>
-
-		<MudItem xs="12" Style="width:95%" Class="align-end ma-0 pa-0">
-			<MudStack Row=true Spacing="14" Class="d-flex align-center justify-end">
-				<MudStack Style="width:40%; height:auto;" Class="align-end">
-					<MudText Class="my-n7" Typo="Typo.h3">Titulo</MudText>
-					<MudText Class="mt-n7" Typo="Typo.h2">Subtitulo</MudText>
-					<MudButton IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-end rounded-lg align-end" Variant="Variant.Filled" StartIcon="@Iconos.Spotify" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on Spotify!</MudText></MudButton>
-					<MudButton IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-end rounded-lg align-end" Variant="Variant.Filled" StartIcon="@Iconos.Youtube" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on Youtube!</MudText></MudButton>
-					<MudButton IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-end rounded-lg align-end" Variant="Variant.Filled" StartIcon="@Iconos.AppleMusic" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on AppleMusic!</MudText></MudButton>
-				</MudStack>
-				<MudImage Style="width:35%; height:auto;" Src="https://otherpeople.es/cdn/shop/files/BRIKS_900x.png?v=1657108163&quot" Elevation="25" Class="rounded-xl" />
-			</MudStack>
-		</MudItem> 
+    <MudGrid id="scrollTarget" Style="width:95%;" Class="align-center justify-center ma-0 pa-0">
+        @foreach (Card card in _cards.Where(c => c.cardType == CardType.Song || c.cardType == CardType.Video).OrderBy(c => c.date))
+        {
+            <OTPCard card="card" FromLeft="direction" />
+            direction = !direction;
+        }
 	</MudGrid>
 </MudContainer>
 
 @code {
-    private int indiceanim = 1;
-    private bool anim = true;
-    private CancellationTokenSource cts;
+    private bool direction = true;
+    private List<Card> _cards = new();
 
-    protected override async Task OnAfterRenderAsync(bool firstRender)
+    protected override async Task OnInitializedAsync()
     {
-        if (firstRender)
-        {
-            cts = new CancellationTokenSource();
-            _ = RunAnimation(cts.Token);
-        }
+        _cards = DbContext.Cards.ToList();
     }
 
-    private async Task RunAnimation(CancellationToken token)
+    private async Task ScrollToBottom()
     {
-        while (!token.IsCancellationRequested)
-        {
-            if (indiceanim < 150)
-            {
-                indiceanim++;
-            }
-            else
-            {
-                indiceanim = 1;
-            }
-
-            await InvokeAsync(StateHasChanged);
-            await Task.Delay(40, token); // Respeta la solicitud de cancelación
-        }
-    }
-
-    void IDisposable.Dispose()
-    {
-        if (cts != null)
-        {
-            cts.Cancel();
-            cts.Dispose();
-        }
+        await JS.InvokeAsync<object>("scrollToElement", "scrollTarget");
     }
 }

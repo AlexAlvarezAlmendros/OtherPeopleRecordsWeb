@@ -4293,11 +4293,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\OtherPeopleRecordsWeb.csproj",
+      "projectUniqueName": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\OtherPeopleRecordsWeb.csproj",
       "projectName": "OtherPeopleRecordsWeb",
-      "projectPath": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\OtherPeopleRecordsWeb.csproj",
+      "projectPath": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\OtherPeopleRecordsWeb.csproj",
       "packagesPath": "C:\\Users\\alexc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\obj\\",
+      "outputPath": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

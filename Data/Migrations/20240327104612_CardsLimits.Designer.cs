@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using OtherPeopleRecordsWeb.Data;
 
@@ -11,9 +12,11 @@ using OtherPeopleRecordsWeb.Data;
 namespace OtherPeopleRecordsWeb.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240327104612_CardsLimits")]
+    partial class CardsLimits
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -242,8 +245,8 @@ namespace OtherPeopleRecordsWeb.Data.Migrations
 
                     b.Property<string>("IMG")
                         .IsRequired()
-                        .HasMaxLength(1000)
-                        .HasColumnType("nvarchar(1000)");
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
 
                     b.Property<string>("InstagramLink")
                         .IsRequired()
@@ -282,8 +285,8 @@ namespace OtherPeopleRecordsWeb.Data.Migrations
 
                     b.Property<string>("VIDEO")
                         .IsRequired()
-                        .HasMaxLength(1000)
-                        .HasColumnType("nvarchar(1000)");
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
 
                     b.Property<string>("YoutubeLink")
                         .IsRequired()

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OV8UnvM9fweY2EKrVOkY2j9ErnvMv2rg12f8bDXcjvbKY9VsiAYv4pVD7y4vvyBfnfxRRADKEJzOcJsiiBPiew==",
+  "dgSpecHash": "6cCl3/+HpiHXVRrx7ohUxGM4qd94pOhaYGqvd+1HYrMxsVwS9jdNSQSPrTOWMdTyl6Xgsg8wf+25qhe9CnnLFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\OtherPeopleRecordsWeb.csproj",
+  "projectFilePath": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\OtherPeopleRecordsWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexc\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\alexc\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

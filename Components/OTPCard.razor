@@ -1,0 +1,229 @@
+﻿<div id="scrollTarget"></div>
+@if (FromLeft)
+{
+	switch (card.cardType)
+	{
+		case CardType.Artist:
+			<MudItem xs="12" Style="width:95%" Class="d-flex justify-start ma-0">
+				<MudStack Row=true Spacing="14" Class="align-center cardstack" Style="width:95%">
+					<MudImage Style="width:35%; height:auto;" Src="@card.IMG" Elevation="25" Class="rounded-xl" />
+					<MudStack Style="width:65%; height:auto;" Class="align-start">
+						<MudText Class="uptext" Typo="Typo.h3">@card.Title</MudText>
+						<MudText Class="downtext" Typo="Typo.h2">@card.Subtitle</MudText>
+						@if (card.TwitterLink != "")
+						{
+							<MudButton Href="@card.TwitterLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-start rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.AppleMusic" Color="Color.Tertiary"><MudText Typo="Typo.button">Follow now on Twitter!</MudText></MudButton>
+						}
+						else if (card.InstagramLink != "")
+						{
+							<MudButton Href="@card.InstagramLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-start rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.AppleMusic" Color="Color.Tertiary"><MudText Typo="Typo.button">Follow now on Instagram!</MudText></MudButton>
+						}
+						@if (card.SpotifyLink != "")
+						{
+							<MudButton Href="@card.SpotifyLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-start rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.Spotify" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on Spotify!</MudText></MudButton>
+						}
+						@if (card.YoutubeLink != "")
+						{
+							<MudButton Href="@card.YoutubeLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-start rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.Youtube" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on Youtube!</MudText></MudButton>
+						}
+						@if (card.SoundCloudLink != "")
+						{
+							<MudButton Href="@card.SoundCloudLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-start rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.AppleMusic" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on SoundCloud!</MudText></MudButton>
+						}
+						@if (card.BeatStarsLink != "")
+						{
+							<MudButton Href="@card.BeatStarsLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-start rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.AppleMusic" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on BeatStars!</MudText></MudButton>
+						}
+						
+					</MudStack>
+				</MudStack>
+			</MudItem>
+			break;
+		case CardType.Song:
+			<MudItem xs="12" Style="width:95%" Class="d-flex justify-start ma-0">
+				<MudStack Row=true Spacing="14" Class="align-center cardstack" Style="width:95%">
+					<MudImage Style="width:35%; height:auto;" Src="@card.IMG" Elevation="25" Class="rounded-xl " />
+					<MudStack Style="width:65%; height:auto;" Class="align-start">
+						<MudText Class="uptext" Typo="Typo.h3">@card.Title</MudText>
+						<MudText Class="downtext" Typo="Typo.h2">@card.Subtitle</MudText>
+						@if (card.SpotifyLink != "")
+						{
+							<MudButton Href="@card.SpotifyLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-start rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.Spotify" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on Spotify!</MudText></MudButton>
+						}
+						@if (card.YoutubeLink != "")
+						{
+							<MudButton Href="@card.YoutubeLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-start rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.Youtube" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on Youtube!</MudText></MudButton>
+						}
+						@if (card.SoundCloudLink != "")
+						{
+							<MudButton Href="@card.SoundCloudLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-start rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.AppleMusic" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on SoundCloud!</MudText></MudButton>
+						}
+					</MudStack>
+				</MudStack>
+			</MudItem>
+			break;
+		case CardType.Studio:
+			<MudItem xs="12" Style="width:95%" Class="d-flex justify-start ma-0">
+				<MudStack Row=true Spacing="14" Class="align-center cardstack" Style="width:95%">
+					<MudImage Style="width:35%; height:auto;" Src="@card.IMG" Elevation="25" Class="rounded-xl" />
+					<MudStack Style="width:65%; height:auto;" Class="align-start">
+						<MudText Class="uptext" Typo="Typo.h3">@card.Title</MudText>
+						<MudText Class="downtext" Typo="Typo.h2">@card.Subtitle</MudText>
+						<MudText Class="downtext" Typo="Typo.h2">@card.Ubicacion</MudText>
+					</MudStack>
+				</MudStack>
+			</MudItem>
+			break;
+		case CardType.Event:
+			<MudItem xs="12" Style="width:95%" Class="d-flex justify-start ma-0">
+				<MudStack Row=true Spacing="14" Class="align-center cardstack" Style="width:95%">
+					<MudImage Style="width:35%; height:auto;" Src="@card.IMG" Elevation="25" Class="rounded-xl" />
+					<MudStack Style="width:65%; height:auto;" Class="align-start">
+						<MudText Class="uptext" Typo="Typo.h3">@card.Title</MudText>
+						<MudText Class="downtext" Typo="Typo.h2">@card.Subtitle</MudText>
+						<MudText Class="downtext" Typo="Typo.h2">@card.Ubicacion</MudText>
+					</MudStack>
+				</MudStack>
+			</MudItem>
+			break;
+		case CardType.Video:
+			<MudItem xs="12" Style="width:95%" Class="d-flex justify-start ma-0">
+				<MudStack Row=true Spacing="14" Class="align-center cardstack" Style="width:95%">
+					<iframe width="560" height="315" src="@card.VIDEO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					<MudStack Style="width:65%; height:auto;" Class="align-start">
+						<MudText Class="uptext" Typo="Typo.h3">@card.Title</MudText>
+						<MudText Class="downtext" Typo="Typo.h2">@card.Subtitle</MudText>
+						@if (card.SpotifyLink != "")
+						{
+							<MudButton Href="@card.SpotifyLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-start rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.Spotify" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on Spotify!</MudText></MudButton>
+						}
+						@if (card.YoutubeLink != "")
+						{
+							<MudButton Href="@card.YoutubeLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-start rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.Youtube" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on Youtube!</MudText></MudButton>
+						}
+						@if (card.SoundCloudLink != "")
+						{
+							<MudButton Href="@card.SoundCloudLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-start rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.AppleMusic" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on SoundCloud!</MudText></MudButton>
+						}
+					</MudStack>
+				</MudStack>
+			</MudItem>
+			break;
+	}
+}else{
+	switch (card.cardType)
+	{
+		case CardType.Artist:
+			<MudItem xs="12" Style="width:95%" Class="align-end ma-0 pa-0">
+				<MudStack Row=true Spacing="14" Class="d-flex align-center justify-end cardstack">
+					<MudStack Style="width:65%; height:auto;" Class="align-end">
+						<MudText Class="uptext" Typo="Typo.h3">@card.Title</MudText>
+						<MudText Class="downtext" Typo="Typo.h2">@card.Subtitle</MudText>
+						@if (card.TwitterLink != "")
+						{
+							<MudButton Href="@card.TwitterLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-end rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.AppleMusic" Color="Color.Tertiary"><MudText Typo="Typo.button">Follow now on Twitter!</MudText></MudButton>
+						}
+						else if (card.InstagramLink != "")
+						{
+							<MudButton Href="@card.InstagramLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-end rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.AppleMusic" Color="Color.Tertiary"><MudText Typo="Typo.button">Folow now on Instagram!</MudText></MudButton>
+						}
+						@if (card.SpotifyLink != "")
+						{
+							<MudButton Href="@card.SpotifyLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-end rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.Spotify" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on Spotify!</MudText></MudButton>
+						}
+						@if (card.YoutubeLink != "")
+						{
+							<MudButton Href="@card.YoutubeLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-end rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.Youtube" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on Youtube!</MudText></MudButton>
+						}
+						@if (card.SoundCloudLink != "")
+						{
+							<MudButton Href="@card.SoundCloudLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-end rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.AppleMusic" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on SoundCloud!</MudText></MudButton>
+						}
+						@if (card.BeatStarsLink != "")
+						{
+							<MudButton Href="@card.BeatStarsLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-end rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.AppleMusic" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on BeatStars!</MudText></MudButton>
+						}
+					</MudStack>
+					<MudImage Style="width:35%; height:auto;" Src="@card.IMG" Elevation="25" Class="rounded-xl" />
+				</MudStack>
+			</MudItem>
+			break;
+		case CardType.Song:
+			<MudItem xs="12" Style="width:95%" Class="align-end ma-0 pa-0">
+				<MudStack Row=true Spacing="14" Class="d-flex align-center justify-end cardstack">
+					<MudStack Style="width:65%; height:auto;" Class="align-end">
+						<MudText Class="uptext" Typo="Typo.h3">@card.Title</MudText>
+						<MudText Class="downtext" Typo="Typo.h2">@card.Subtitle</MudText>
+						@if (card.SpotifyLink != "")
+						{
+							<MudButton Href="@card.SpotifyLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-end rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.Spotify" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on Spotify!</MudText></MudButton>
+						}
+						@if (card.YoutubeLink != "")
+						{
+							<MudButton Href="@card.YoutubeLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-end rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.Youtube" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on Youtube!</MudText></MudButton>
+						}
+						@if (card.SoundCloudLink != "")
+						{
+							<MudButton Href="@card.SoundCloudLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-end rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.AppleMusic" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on SoundCloud!</MudText></MudButton>
+						}
+					</MudStack>
+					<MudImage Style="width:35%; height:auto;" Src="@card.IMG" Elevation="25" Class="rounded-xl" />
+				</MudStack>
+			</MudItem>
+			break;
+		case CardType.Studio:
+			<MudItem xs="12" Style="width:95%" Class="align-end ma-0 pa-0">
+				<MudStack Row=true Spacing="14" Class="d-flex align-center justify-end cardstack">
+					<MudStack Style="width:65%; height:auto;" Class="align-end">
+						<MudText Class="uptext" Typo="Typo.h3">@card.Title</MudText>
+						<MudText Class="downtext" Typo="Typo.h2">@card.Subtitle</MudText>
+						<MudText Class="downtext" Typo="Typo.h2">@card.Ubicacion</MudText>
+					</MudStack>
+					<MudImage Style="width:35%; height:auto;" Src="@card.IMG" Elevation="25" Class="rounded-xl" />
+				</MudStack>
+			</MudItem>
+			break;
+		case CardType.Event:
+			<MudItem xs="12" Style="width:95%" Class="align-end ma-0 pa-0">
+				<MudStack Row=true Spacing="14" Class="d-flex align-center justify-end cardstack">
+					<MudStack Style="width:65%; height:auto;" Class="align-end">
+						<MudText Class="uptext" Typo="Typo.h3">@card.Title</MudText>
+						<MudText Class="downtext" Typo="Typo.h2">@card.Subtitle</MudText>
+						<MudText Class="downtext" Typo="Typo.h2">@card.Ubicacion</MudText>
+					</MudStack>
+					<MudImage Style="width:35%; height:auto;" Src="@card.IMG" Elevation="25" Class="rounded-xl" />
+				</MudStack>
+			</MudItem>
+			break;
+		case CardType.Video:
+			<MudItem xs="12" Style="width:95%" Class="align-end ma-0 pa-0">
+				<MudStack Row=true Spacing="14" Class="d-flex align-center justify-end cardstack">
+					<MudStack Style="width:65%; height:auto;" Class="align-end">
+						<MudText Class="uptext" Typo="Typo.h3">@card.Title</MudText>
+						<MudText Class="downtext" Typo="Typo.h2">@card.Subtitle</MudText>
+						@if (card.SpotifyLink != "")
+						{
+							<MudButton Href="@card.SpotifyLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-end rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.Spotify" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on Spotify!</MudText></MudButton>
+						}
+						@if (card.YoutubeLink != "")
+						{
+							<MudButton Href="@card.YoutubeLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-end rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.Youtube" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on Youtube!</MudText></MudButton>
+						}
+						@if (card.SoundCloudLink != "")
+						{
+							<MudButton Href="@card.SoundCloudLink" IconClass="IconSizeLarge" IconSize="Size.Large" Class="d-flex justify-end rounded-lg" Variant="Variant.Filled" StartIcon="@Iconos.AppleMusic" Color="Color.Tertiary"><MudText Typo="Typo.button">Listen now on SoundCloud!</MudText></MudButton>
+						}
+					</MudStack>
+					<iframe Style="width:50%; height:47vh" src="@card.VIDEO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</MudStack>
+			</MudItem>
+			break;
+	}
+}
+
+@code{
+	[Parameter]
+	public bool FromLeft { get; set; } = true;
+	[Parameter]
+	public Card card { get; set; } = new Card();
+}

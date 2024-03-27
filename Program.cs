@@ -9,8 +9,10 @@ using MudBlazor;
 using MudBlazor.Services;
 using OtherPeopleRecordsWeb.Areas.Identity;
 using OtherPeopleRecordsWeb.Data;
+using OtherPeopleRecordsWeb.Entities;
 using OtherPeopleRecordsWeb.Global;
 using OtherPeopleRecordsWeb.Services;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,7 +26,9 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+builder.Services.AddHttpClient();
 builder.Services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
+builder.Services.AddSingleton<Global>();
 builder.Services.AddMudServices(config =>
 {
     config.SnackbarConfiguration.PositionClass = Defaults.Classes.Position.TopCenter;
@@ -74,6 +78,72 @@ else
     app.UseHsts();
 }
 
+
+#region MINIMAL API
+app.MapPost("/cards", async (Card card, ApplicationDbContext context) =>
+{
+	try
+	{
+		context.Cards.Add(card);
+		await context.SaveChangesAsync();
+		return Results.Created($"/cards/{card.Id}", card);
+	}
+	catch (Exception ex)
+	{
+		return Results.Problem(ex.Message);
+	}
+});
+
+app.MapGet("/cards", async (ApplicationDbContext context) => {
+	return await context.Cards.AsNoTracking().ToListAsync();
+});
+
+app.MapPut("/cards/{id}", async (Guid id, Card updateCard, ApplicationDbContext context) =>
+{
+	var existingCard = await context.Cards.FindAsync(id);
+	if (existingCard == null) return Results.NotFound();
+
+	existingCard.Title = updateCard.Title ?? existingCard.Title;
+	existingCard.Subtitle = updateCard.Subtitle ?? existingCard.Subtitle;
+	existingCard.SpotifyLink = updateCard.SpotifyLink ?? existingCard.SpotifyLink;
+	existingCard.YoutubeLink = updateCard.YoutubeLink ?? existingCard.YoutubeLink;
+	existingCard.AppleMusicLink = updateCard.AppleMusicLink ?? existingCard.AppleMusicLink;
+	existingCard.InstagramLink = updateCard.InstagramLink ?? existingCard.InstagramLink;
+	existingCard.SoundCloudLink = updateCard.SoundCloudLink ?? existingCard.SoundCloudLink;
+	existingCard.BeatStarsLink = updateCard.BeatStarsLink ?? existingCard.BeatStarsLink;
+	existingCard.TwitterLink = updateCard.TwitterLink ?? existingCard.TwitterLink;
+	existingCard.Ubicacion = updateCard.Ubicacion ?? existingCard.Ubicacion;
+	existingCard.IMG = updateCard.IMG ?? existingCard.IMG;
+	existingCard.VIDEO = updateCard.VIDEO ?? existingCard.VIDEO;
+	existingCard.cardType = updateCard.cardType;
+	existingCard.date = updateCard.date;
+
+	await context.SaveChangesAsync();
+
+	return Results.NoContent();
+});
+
+app.MapDelete("/cards/{id}", async (int id, ApplicationDbContext context) =>
+{
+	var tmpcard = await context.Cards.FindAsync(id);
+	if (tmpcard == null) return Results.NotFound();
+
+	context.Cards.Remove(tmpcard);
+	await context.SaveChangesAsync();
+
+	return Results.Ok(tmpcard);
+});
+
+
+
+#endregion
+
+
+
+
+
+
+
 app.UseHttpsRedirection();
 
 app.UseStaticFiles();
@@ -90,3 +160,7 @@ app.UseEndpoints(endpoints =>
 });
 
 app.Run();
+
+
+
+

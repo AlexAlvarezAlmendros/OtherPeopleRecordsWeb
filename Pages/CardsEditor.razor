@@ -1,0 +1,209 @@
+﻿@page "/cardeditor"
+@using OtherPeopleRecordsWeb.Data
+@using Microsoft.EntityFrameworkCore
+@inject ISnackbar Snackbar
+@inject IHttpClientFactory HttpClientFactory
+@inject ApplicationDbContext DbContext
+@attribute [Authorize(Roles = "Admin, Manager, Artist")]
+<MudContainer Class="d-flex flex-column justify-start align-start ma-0 pa-0" Style="width:100%; height:120vh; margin-top:40px!important; max-width: 90%">
+<MudStack Row="true">
+    <MudPaper Class="pa-4 mt-14" Style="width:50%">
+            <MudText Typo="Typo.h5">Gestión de Cards</MudText>
+            <EditForm Model="@_card" OnValidSubmit="@HandleSubmit">
+                <MudTabs Outlined="true">
+                    <MudTabPanel Text="Textos" Icon="@Icons.Material.Filled.TextFields">
+                        <MudSelect T="CardType" @bind-Value="@_card.cardType" Label="Tipo">
+                            <MudSelectItem Value="@CardType.Song">Song</MudSelectItem>
+                            <MudSelectItem Value="@CardType.Artist">Artist</MudSelectItem>
+                            <MudSelectItem Value="@CardType.Event">Event</MudSelectItem>
+                            <MudSelectItem Value="@CardType.Studio">Studio</MudSelectItem>
+                            <MudSelectItem Value="@CardType.Video">Video</MudSelectItem>
+                        </MudSelect>
+                        <MudTextField @bind-Value="@_card.Title" Label="Título" />
+                        <MudTextField @bind-Value="@_card.Subtitle" Label="Subtítulo" />
+                        @if (_card.cardType == CardType.Studio || _card.cardType == CardType.Event)
+                        {
+                            <MudTextField @bind-Value="@_card.Ubicacion" Label="Ubicacion" />
+                        }
+                    </MudTabPanel>
+                    <MudTabPanel Text="Links" Icon="@Icons.Material.Filled.InsertLink">
+                        @switch (_card.cardType)
+                        {
+                            case CardType.Song:
+                                <MudTextField @bind-Value="@_card.SpotifyLink" Label="SpotifyLink" />
+                                <MudTextField @bind-Value="@_card.YoutubeLink" Label="YoutubeLink" />
+                                <MudTextField @bind-Value="@_card.SoundCloudLink" Label="SoundCloudLink" />
+                                break;
+                            case CardType.Artist:
+                                <MudTextField @bind-Value="@_card.SpotifyLink" Label="SpotifyLink" />
+                                <MudTextField @bind-Value="@_card.InstagramLink" Label="InstagramLink" />
+                                <MudTextField @bind-Value="@_card.SoundCloudLink" Label="SoundCloudLink" />
+                                <MudTextField @bind-Value="@_card.BeatStarsLink" Label="BeatStarsLink" />
+                                break;
+                            case CardType.Video:
+                                <MudTextField @bind-Value="@_card.SpotifyLink" Label="SpotifyLink" />
+                                <MudTextField @bind-Value="@_card.YoutubeLink" Label="YoutubeLink" />
+                                <MudTextField @bind-Value="@_card.AppleMusicLink" Label="AppleMusicLink" />
+                                break;
+                        }
+                    </MudTabPanel>
+                    <MudTabPanel Text="Grafico" Icon="@Icons.Material.Filled.Image">
+                        @if (_card.cardType == CardType.Video)
+                        {
+                            <MudTextField @bind-Value="@_card.VIDEO" Label="VIDEO" />
+                        }
+                        else
+                        {
+                            <MudTextField @bind-Value="@_card.IMG" Label="IMG" />
+                            <InputFile OnChange="@OnInputFileChange" />
+                        }
+                        <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled">Guardar</MudButton>
+                    </MudTabPanel>
+                </MudTabs>
+        </EditForm>
+    </MudPaper>
+    <OTPCard card="_card" FromLeft="true"></OTPCard>
+</MudStack>
+    @if (_cards != null)
+    {
+        <MudPaper Class="pa-4 mt-14" Style="width:100%">
+        <MudTable Items="@_cards">
+            <HeaderContent>
+                <MudTh>Título</MudTh>
+                <MudTh>Subtítulo</MudTh>
+                <MudTh>Tipo</MudTh>
+                <MudTh>Opciones</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd DataLabel="Título">@context.Title</MudTd>
+                    <MudTd DataLabel="Subtítulo">@context.Subtitle</MudTd>
+                    <MudTd DataLabel="Tipo">@context.cardType</MudTd>
+                <MudTd>
+                    <MudButton Variant="Variant.Outlined" Color="Color.Primary" OnClick="() => EditCard(context)">Editar</MudButton>
+                    <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="() => DeleteCard(context)">Eliminar</MudButton>
+                </MudTd>
+            </RowTemplate>
+        </MudTable>
+        </MudPaper>
+    }
+</MudContainer>
+
+@code {
+    private Card _card = new();
+    private List<Card> _cards = new();
+    private ElementReference fileInput;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _cards = DbContext.Cards.ToList();
+    }
+
+
+
+    private async Task OnInputFileChange(InputFileChangeEventArgs e)
+    {
+        var file = e.File; // Obtiene el archivo seleccionado
+        if (file == null) return;
+
+        using var content = new MultipartFormDataContent();
+        using var fileStream = file.OpenReadStream(maxAllowedSize: 10485760); // 10 MB
+        using var streamContent = new StreamContent(fileStream);
+        content.Add(streamContent, "image", file.Name);
+
+        var httpClient = HttpClientFactory.CreateClient();
+        httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Client-ID", "f9eb0dc0e3eb204");
+
+        var response = await httpClient.PostAsync("https://api.imgur.com/3/image", content);
+        if (response.IsSuccessStatusCode)
+        {
+            var responseString = await response.Content.ReadAsStringAsync();
+            var imgurResponse = System.Text.Json.JsonSerializer.Deserialize<ImgurResponse>(responseString);
+
+            _card.IMG = imgurResponse?.data?.link ?? "";
+
+        }
+        else
+        {
+            Snackbar.Add("Ocurrió un error al subir las imagenes.", Severity.Error);
+        }
+    }
+    public class ImgurResponse
+    {
+        public Data data { get; set; }
+    }
+
+    public class Data
+    {
+        public string link { get; set; }
+    }
+
+    private async Task HandleSubmit()
+    {
+        try
+        {
+            Card cardEntity = _card.Id == Guid.Empty ? new Card() : await DbContext.Cards.FindAsync(_card.Id);
+            cardEntity.Title = _card.Title;
+            cardEntity.Subtitle = _card.Subtitle;
+            cardEntity.SpotifyLink = _card.SpotifyLink;
+            cardEntity.YoutubeLink = _card.YoutubeLink;
+            cardEntity.AppleMusicLink = _card.AppleMusicLink;
+            cardEntity.InstagramLink = _card.InstagramLink;
+            cardEntity.SoundCloudLink = _card.SoundCloudLink;
+            cardEntity.BeatStarsLink = _card.BeatStarsLink;
+            cardEntity.TwitterLink = _card.TwitterLink;
+            cardEntity.Ubicacion = _card.Ubicacion;
+            cardEntity.IMG = _card.IMG;
+            cardEntity.VIDEO = _card.VIDEO;
+            cardEntity.cardType = _card.cardType;
+            cardEntity.date = _card.date;
+
+            if (_card.Id == Guid.Empty)
+            {
+                cardEntity.date = DateTime.Now;
+                DbContext.Cards.Add(cardEntity);
+            }
+            else
+            {
+                DbContext.Entry(cardEntity).State = EntityState.Modified;
+            }
+
+            await DbContext.SaveChangesAsync();
+            await OnInitializedAsync(); // Recargar la lista de cards
+            _card = new(); // Restablecer el ViewModel para el formulario
+        } catch (Exception ex)
+        {
+            Snackbar.Add("Ocurrió un error al cargar los datos.", Severity.Error);
+        }
+
+    }
+
+    private void EditCard(Card card)
+    {
+        _card = new Card
+            {
+                Id = card.Id,
+                Title = card.Title,
+                Subtitle = card.Subtitle,
+                SpotifyLink = card.SpotifyLink,
+                YoutubeLink = card.YoutubeLink,
+                AppleMusicLink = card.AppleMusicLink,
+                InstagramLink = card.InstagramLink,
+                SoundCloudLink = card.SoundCloudLink,
+                BeatStarsLink = card.BeatStarsLink,
+                TwitterLink = card.TwitterLink,
+                Ubicacion = card.Ubicacion,
+                IMG = card.IMG,
+                VIDEO = card.VIDEO,
+                cardType = card.cardType,
+                date = card.date,
+            };
+    }
+
+    private async Task DeleteCard(Card card)
+    {
+        DbContext.Cards.Remove(card);
+        await DbContext.SaveChangesAsync();
+        await OnInitializedAsync();
+        _card = new Card();
+    }
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x62/3ibDblpQzEwJu1o+/8+5cLGUzfnACu4MngJ1GFI=",
+  "Hash": "8pz6HRgWrYlaSVU0CLt3x+x7pMovF/v8jEZ1AnzCgzQ=",
   "Source": "OtherPeopleRecordsWeb",
   "BasePath": "_content/OtherPeopleRecordsWeb",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "OtherPeopleRecordsWeb\\wwwroot",
       "Source": "OtherPeopleRecordsWeb",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "Pattern": "**"
     }
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "C:\\Users\\alexc\\.nuget\\packages\\mudblazor\\6.17.0\\staticwebassets\\MudBlazor.min.js"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\obj\\Debug\\net7.0\\scopedcss\\bundle\\OtherPeopleRecordsWeb.styles.css",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\obj\\Debug\\net7.0\\scopedcss\\bundle\\OtherPeopleRecordsWeb.styles.css",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "OtherPeopleRecordsWeb.styles.css",
       "AssetKind": "All",
@@ -1085,13 +1085,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\obj\\Debug\\net7.0\\scopedcss\\bundle\\OtherPeopleRecordsWeb.styles.css"
+      "OriginalItemSpec": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\obj\\Debug\\net7.0\\scopedcss\\bundle\\OtherPeopleRecordsWeb.styles.css"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\OtherPeopleRecordsWeb.bundle.scp.css",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\OtherPeopleRecordsWeb.bundle.scp.css",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "OtherPeopleRecordsWeb.bundle.scp.css",
       "AssetKind": "All",
@@ -1102,13 +1102,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\OtherPeopleRecordsWeb.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\OtherPeopleRecordsWeb.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\css\\site.css",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\favicon.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\header.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\header.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/header.png",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\header.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0001.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0001.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0001.png",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0001.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0002.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0002.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0002.png",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0002.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0003.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0003.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0003.png",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0003.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0004.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0004.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0004.png",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0004.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0005.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0005.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0005.png",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0005.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0006.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0006.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0006.png",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0006.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0007.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0007.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0007.png",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0007.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0008.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0008.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0008.png",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0008.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0009.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0009.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0009.png",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0009.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0010.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0010.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0010.png",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0010.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0011.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0011.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0011.png",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0011.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0012.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0012.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0012.png",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0012.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0013.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0013.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0013.png",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0013.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0014.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0014.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0014.png",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0014.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0015.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0015.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0015.png",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0015.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0016.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0016.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0016.png",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0016.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0017.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0017.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0017.png",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0017.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0018.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0018.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0018.png",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0018.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0019.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0019.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0019.png",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0019.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0020.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0020.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0020.png",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0020.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0021.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0021.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0021.png",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0021.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0022.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0022.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0022.png",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0022.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0023.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0023.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0023.png",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0023.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0024.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0024.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0024.png",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0024.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0025.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0025.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0025.png",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0025.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0026.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0026.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0026.png",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0026.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0027.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0027.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0027.png",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0027.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0028.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0028.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0028.png",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0028.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0029.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0029.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0029.png",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0029.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0030.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0030.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0030.png",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0030.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0031.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0031.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0031.png",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0031.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0032.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0032.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0032.png",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0032.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0033.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0033.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0033.png",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0033.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0034.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0034.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0034.png",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0034.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0035.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0035.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0035.png",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0035.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0036.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0036.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0036.png",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0036.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0037.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0037.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0037.png",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0037.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0038.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0038.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0038.png",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0038.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0039.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0039.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0039.png",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0039.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0040.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0040.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0040.png",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0040.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0041.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0041.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0041.png",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0041.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0042.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0042.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0042.png",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0042.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0043.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0043.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0043.png",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0043.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0044.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0044.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0044.png",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0044.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0045.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0045.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0045.png",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0045.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0046.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0046.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0046.png",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0046.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0047.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0047.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0047.png",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0047.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0048.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0048.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0048.png",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0048.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0049.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0049.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0049.png",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0049.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0050.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0050.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0050.png",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0050.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0051.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0051.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0051.png",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0051.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0052.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0052.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0052.png",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0052.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0053.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0053.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0053.png",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0053.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0054.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0054.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0054.png",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0054.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0055.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0055.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0055.png",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0055.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0056.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0056.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0056.png",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0056.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0057.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0057.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0057.png",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0057.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0058.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0058.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0058.png",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0058.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0059.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0059.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0059.png",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0059.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0060.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0060.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0060.png",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0060.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0061.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0061.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0061.png",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0061.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0062.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0062.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0062.png",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0062.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0063.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0063.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0063.png",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0063.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0064.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0064.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0064.png",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0064.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0065.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0065.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0065.png",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0065.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0066.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0066.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0066.png",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0066.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0067.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0067.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0067.png",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0067.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0068.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0068.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0068.png",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0068.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0069.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0069.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0069.png",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0069.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0070.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0070.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0070.png",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0070.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0071.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0071.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0071.png",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0071.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0072.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0072.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0072.png",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0072.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0073.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0073.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0073.png",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0073.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0074.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0074.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0074.png",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0074.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0075.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0075.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0075.png",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0075.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0076.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0076.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0076.png",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0076.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0077.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0077.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0077.png",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0077.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0078.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0078.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0078.png",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0078.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0079.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0079.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0079.png",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0079.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0080.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0080.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0080.png",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0080.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0081.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0081.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0081.png",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0081.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0082.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0082.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0082.png",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0082.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0083.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0083.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0083.png",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0083.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0084.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0084.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0084.png",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0084.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0085.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0085.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0085.png",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0085.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0086.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0086.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0086.png",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0086.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0087.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0087.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0087.png",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0087.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0088.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0088.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0088.png",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0088.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0089.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0089.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0089.png",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0089.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0090.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0090.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0090.png",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0090.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0091.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0091.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0091.png",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0091.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0092.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0092.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0092.png",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0092.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0093.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0093.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0093.png",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0093.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0094.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0094.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0094.png",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0094.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0095.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0095.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0095.png",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0095.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0096.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0096.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0096.png",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0096.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0097.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0097.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0097.png",
       "AssetKind": "All",
@@ -2992,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0097.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0098.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0098.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0098.png",
       "AssetKind": "All",
@@ -3009,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0098.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0099.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0099.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0099.png",
       "AssetKind": "All",
@@ -3026,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0099.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0100.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0100.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0100.png",
       "AssetKind": "All",
@@ -3043,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0100.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0101.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0101.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0101.png",
       "AssetKind": "All",
@@ -3060,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0101.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0102.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0102.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0102.png",
       "AssetKind": "All",
@@ -3077,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0102.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0103.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0103.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0103.png",
       "AssetKind": "All",
@@ -3094,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0103.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0104.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0104.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0104.png",
       "AssetKind": "All",
@@ -3111,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0104.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0105.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0105.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0105.png",
       "AssetKind": "All",
@@ -3128,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0105.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0106.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0106.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0106.png",
       "AssetKind": "All",
@@ -3145,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0106.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0107.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0107.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0107.png",
       "AssetKind": "All",
@@ -3162,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0107.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0108.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0108.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0108.png",
       "AssetKind": "All",
@@ -3179,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0108.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0109.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0109.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0109.png",
       "AssetKind": "All",
@@ -3196,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0109.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0110.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0110.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0110.png",
       "AssetKind": "All",
@@ -3213,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0110.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0111.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0111.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0111.png",
       "AssetKind": "All",
@@ -3230,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0111.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0112.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0112.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0112.png",
       "AssetKind": "All",
@@ -3247,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0112.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0113.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0113.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0113.png",
       "AssetKind": "All",
@@ -3264,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0113.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0114.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0114.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0114.png",
       "AssetKind": "All",
@@ -3281,10 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0114.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0115.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0115.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0115.png",
       "AssetKind": "All",
@@ -3298,10 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0115.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0116.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0116.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0116.png",
       "AssetKind": "All",
@@ -3315,10 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0116.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0117.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0117.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0117.png",
       "AssetKind": "All",
@@ -3332,10 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0117.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0118.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0118.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0118.png",
       "AssetKind": "All",
@@ -3349,10 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0118.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0119.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0119.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0119.png",
       "AssetKind": "All",
@@ -3366,10 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0119.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0120.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0120.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0120.png",
       "AssetKind": "All",
@@ -3383,10 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0120.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0121.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0121.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0121.png",
       "AssetKind": "All",
@@ -3400,10 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0121.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0122.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0122.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0122.png",
       "AssetKind": "All",
@@ -3417,10 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0122.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0123.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0123.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0123.png",
       "AssetKind": "All",
@@ -3434,10 +3434,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0123.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0124.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0124.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0124.png",
       "AssetKind": "All",
@@ -3451,10 +3451,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0124.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0125.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0125.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0125.png",
       "AssetKind": "All",
@@ -3468,10 +3468,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0125.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0126.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0126.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0126.png",
       "AssetKind": "All",
@@ -3485,10 +3485,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0126.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0127.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0127.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0127.png",
       "AssetKind": "All",
@@ -3502,10 +3502,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0127.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0128.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0128.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0128.png",
       "AssetKind": "All",
@@ -3519,10 +3519,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0128.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0129.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0129.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0129.png",
       "AssetKind": "All",
@@ -3536,10 +3536,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0129.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0130.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0130.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0130.png",
       "AssetKind": "All",
@@ -3553,10 +3553,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0130.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0131.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0131.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0131.png",
       "AssetKind": "All",
@@ -3570,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0131.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0132.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0132.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0132.png",
       "AssetKind": "All",
@@ -3587,10 +3587,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0132.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0133.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0133.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0133.png",
       "AssetKind": "All",
@@ -3604,10 +3604,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0133.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0134.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0134.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0134.png",
       "AssetKind": "All",
@@ -3621,10 +3621,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0134.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0135.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0135.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0135.png",
       "AssetKind": "All",
@@ -3638,10 +3638,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0135.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0136.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0136.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0136.png",
       "AssetKind": "All",
@@ -3655,10 +3655,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0136.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0137.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0137.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0137.png",
       "AssetKind": "All",
@@ -3672,10 +3672,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0137.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0138.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0138.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0138.png",
       "AssetKind": "All",
@@ -3689,10 +3689,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0138.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0139.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0139.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0139.png",
       "AssetKind": "All",
@@ -3706,10 +3706,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0139.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0140.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0140.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0140.png",
       "AssetKind": "All",
@@ -3723,10 +3723,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0140.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0141.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0141.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0141.png",
       "AssetKind": "All",
@@ -3740,10 +3740,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0141.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0142.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0142.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0142.png",
       "AssetKind": "All",
@@ -3757,10 +3757,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0142.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0143.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0143.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0143.png",
       "AssetKind": "All",
@@ -3774,10 +3774,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0143.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0144.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0144.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0144.png",
       "AssetKind": "All",
@@ -3791,10 +3791,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0144.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0145.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0145.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0145.png",
       "AssetKind": "All",
@@ -3808,10 +3808,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0145.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0146.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0146.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0146.png",
       "AssetKind": "All",
@@ -3825,10 +3825,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0146.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0147.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0147.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0147.png",
       "AssetKind": "All",
@@ -3842,10 +3842,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0147.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0148.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0148.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0148.png",
       "AssetKind": "All",
@@ -3859,10 +3859,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0148.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0149.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0149.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0149.png",
       "AssetKind": "All",
@@ -3876,10 +3876,10 @@
       "OriginalItemSpec": "wwwroot\\Imagenes\\logo3d\\0149.png"
     },
     {
-      "Identity": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0150.png",
+      "Identity": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\Imagenes\\logo3d\\0150.png",
       "SourceId": "OtherPeopleRecordsWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\alexc\\source\\repos\\OtherPeopleRecordsWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\wwwroot\\",
       "BasePath": "_content/OtherPeopleRecordsWeb",
       "RelativePath": "Imagenes/logo3d/0150.png",
       "AssetKind": "All",
