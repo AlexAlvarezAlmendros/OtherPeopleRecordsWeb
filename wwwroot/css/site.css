@@ -42,7 +42,7 @@ a, .btn-link {
 }
 
 .mud-icon-size-large {
-    font-size: min(max(20px, 2vw), 200px)!important;
+    font-size: min(max(10px, 2vw), 200px)!important;
 }
 
 #blazor-error-ui {
@@ -75,13 +75,34 @@ a, .btn-link {
     }
 
 .uptext {
-    margin-bottom: min(max(-27px, -2vw), 27px) !important
+    margin-bottom: min(max(-3px, -1vw), 27px) !important;  
 }
 
 .downtext {
-    margin-top: min(max(-27px, -2vw), 27px) !important
+    margin-top: min(max(-3px, -1vw), 27px) !important;
 }
 
 .cardstack {
     gap: 5vw!important;
 }
+
+.textbtnsstack {
+    gap: min(max(6px, 1vw), 15px) !important
+}
+
+.video-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.rounded-iframe-container {
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+/*.mud-icon-size-large {
+    font-size: 2.25rem !important;
+}*/

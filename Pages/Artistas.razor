@@ -4,11 +4,11 @@
 @using OtherPeopleRecordsWeb.Data
 @inject ApplicationDbContext DbContext
 
-<PageTitle>Artists</PageTitle>
+<PageTitle>OtherPeopleRecords</PageTitle>
 
 <MudContainer Class="d-flex flex-column justify-center align-center ma-0 pa-0" Style=" width:100%; height:auto; margin-top:40px!important; max-width: 90%">
 	<MudGrid Style="width:95%;" Class="align-center justify-center ma-0 pa-0">
-		@foreach (Card card in DbContext.Cards.Where(c => c.cardType == CardType.Artist))
+		@foreach (Card card in _cards.Where(c => c.cardType == CardType.Artist).OrderByDescending(c=>c.date))
 		{
 			<OTPCard card="card" FromLeft="direction" />
 			direction = !direction;
@@ -18,4 +18,10 @@
 
 @code {
 	private bool direction = true;
+	private List<Card> _cards = new();
+
+	protected override async Task OnInitializedAsync()
+	{
+		_cards = DbContext.Cards.ToList();
+	}
 }

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OtherPeopleRecordsWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae88d32813e570f909eaef4d79ea2fcd2ce91ea9")]
 [assembly: System.Reflection.AssemblyProductAttribute("OtherPeopleRecordsWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OtherPeopleRecordsWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

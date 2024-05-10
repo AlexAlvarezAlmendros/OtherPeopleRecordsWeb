@@ -2,25 +2,52 @@
 @using Microsoft.AspNetCore.Identity
 @inject UserManager<IdentityUser> UserManager
 @inject AuthenticationStateProvider AuthenticationStateProvider
-<AuthorizeView>
-    <Authorized> 
-        <MudStack Row="true">
-            @if (isAuthorizedForControlPanel)
-            {
-                <MudButton Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/cardeditor"))" ButtonType="ButtonType.Submit" Variant="Variant.Outlined">ControlPanel</MudButton>
-            }
-            <MudButton Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/logout", forceLoad: true))" ButtonType="ButtonType.Submit" Variant="Variant.Outlined">Log out</MudButton>
-        </MudStack>
-    </Authorized>
-    <NotAuthorized>
-        <MudStack Row="true">
-            <MudButton Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/login"))" Variant="Variant.Outlined">Log in</MudButton>
-            <MudButton Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/register"))" Variant="Variant.Outlined">Register</MudButton>
-        </MudStack>
-    </NotAuthorized>
-</AuthorizeView>
+@if (isNavDrawer)
+{
+    <AuthorizeView>
+        <Authorized>
+            <MudStack>
+                @if (isAuthorizedForControlPanel)
+                {
+                    <MudButton Class="mx-4" Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/cardeditor"))" ButtonType="ButtonType.Submit" Variant="Variant.Outlined">ControlPanel</MudButton>
+                }
+                <MudButton Class="mx-4" Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/logout", forceLoad: true))" ButtonType="ButtonType.Submit" Variant="Variant.Outlined">Log out</MudButton>
+            </MudStack>
+        </Authorized>
+        <NotAuthorized>
+            <MudStack>
+                <MudButton Class="mx-4" Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/login"))" Variant="Variant.Outlined">Log in</MudButton>
+                <MudButton Class="mx-4" Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/register"))" Variant="Variant.Outlined">Register</MudButton>
+            </MudStack>
+        </NotAuthorized>
+    </AuthorizeView>
+}
+else
+{
+    <AuthorizeView>
+        <Authorized>
+            <MudStack Row="true">
+                @if (isAuthorizedForControlPanel)
+                {
+                    <MudButton Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/cardeditor"))" ButtonType="ButtonType.Submit" Variant="Variant.Outlined">ControlPanel</MudButton>
+                }
+                <MudButton Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/logout", forceLoad: true))" ButtonType="ButtonType.Submit" Variant="Variant.Outlined">Log out</MudButton>
+            </MudStack>
+        </Authorized>
+        <NotAuthorized>
+            <MudStack Row="true">
+                <MudButton Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/login"))" Variant="Variant.Outlined">Log in</MudButton>
+                <MudButton Color="Color.Info" Size="Size.Small" OnClick="@(()=>nav.NavigateTo("/register"))" Variant="Variant.Outlined">Register</MudButton>
+            </MudStack>
+        </NotAuthorized>
+    </AuthorizeView>
+}
+
 
 @code{
+    [Parameter]
+    public bool isNavDrawer { get; set; } = false;
+
     private bool isAuthorizedForControlPanel = false;
 
     protected override async Task OnInitializedAsync()

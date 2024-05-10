@@ -9,8 +9,8 @@
 <MudPaper Class="pa-4">
     <MudText Typo="Typo.h5">Iniciar sesión</MudText>
     <EditForm Model="@loginModel" OnValidSubmit="HandleLogin">
-            <MudTextField Label="Email" @bind-Value="loginModel.Email" />
-            <MudTextField Label="Contraseña" @bind-Value="loginModel.Password"  InputType="InputType.Password" />
+        <MudTextField Label="Email" @bind-Value="loginModel.Email" />
+        <MudTextField Label="Contraseña" @bind-Value="loginModel.Password"  InputType="InputType.Password" />
         <MudButton ButtonType="ButtonType.Submit" Color="Color.Primary">Login</MudButton>
     </EditForm>
 </MudPaper>

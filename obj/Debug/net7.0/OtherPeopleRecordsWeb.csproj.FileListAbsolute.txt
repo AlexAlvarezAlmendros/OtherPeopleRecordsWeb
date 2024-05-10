@@ -184,9 +184,10 @@ C:\Users\alexc\OneDrive\Documentos\GIT\OtherPeopleRecordsWeb\obj\Debug\net7.0\sc
 C:\Users\alexc\OneDrive\Documentos\GIT\OtherPeopleRecordsWeb\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\alexc\OneDrive\Documentos\GIT\OtherPeopleRecordsWeb\obj\Debug\net7.0\scopedcss\bundle\OtherPeopleRecordsWeb.styles.css
 C:\Users\alexc\OneDrive\Documentos\GIT\OtherPeopleRecordsWeb\obj\Debug\net7.0\scopedcss\projectbundle\OtherPeopleRecordsWeb.bundle.scp.css
-C:\Users\alexc\OneDrive\Documentos\GIT\OtherPeopleRecordsWeb\obj\Debug\net7.0\OtherPeopleRecordsWeb.csproj.CopyComplete
 C:\Users\alexc\OneDrive\Documentos\GIT\OtherPeopleRecordsWeb\obj\Debug\net7.0\OtherPeopleRecordsWeb.dll
 C:\Users\alexc\OneDrive\Documentos\GIT\OtherPeopleRecordsWeb\obj\Debug\net7.0\refint\OtherPeopleRecordsWeb.dll
 C:\Users\alexc\OneDrive\Documentos\GIT\OtherPeopleRecordsWeb\obj\Debug\net7.0\OtherPeopleRecordsWeb.pdb
 C:\Users\alexc\OneDrive\Documentos\GIT\OtherPeopleRecordsWeb\obj\Debug\net7.0\OtherPeopleRecordsWeb.genruntimeconfig.cache
 C:\Users\alexc\OneDrive\Documentos\GIT\OtherPeopleRecordsWeb\obj\Debug\net7.0\ref\OtherPeopleRecordsWeb.dll
+C:\Users\alexc\OneDrive\Documentos\GIT\OtherPeopleRecordsWeb\obj\Debug\net7.0\OtherPeopleRecordsWeb.sourcelink.json
+C:\Users\alexc\OneDrive\Documentos\GIT\OtherPeopleRecordsWeb\obj\Debug\net7.0\OtherPeo.D58FA4B5.Up2Date
