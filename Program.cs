@@ -18,7 +18,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 #if DEBUG
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+var connectionString = builder.Configuration.GetConnectionString("ReleaseConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+//var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 #else
 var connectionString = builder.Configuration.GetConnectionString("ReleaseConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 #endif

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MsLbnY+jCmqp199vIFX7E7sN5pcxCW/4+zBdplamNrsrLl9ZwpK5A5IimCDnK6DP/FREAoWntpG23GSn4G/pGw==",
+  "dgSpecHash": "B8wyum6C/p4huz9J/QXvCi5+ZbISLlwz4/xXhZ8NoMdilNTn8KimVpkpd69Pge+YNaVBi14kB/1V2wwxd5jryA==",
   "success": true,
   "projectFilePath": "C:\\Users\\alexc\\OneDrive\\Documentos\\GIT\\OtherPeopleRecordsWeb\\OtherPeopleRecordsWeb.csproj",
   "expectedPackageFiles": [
@@ -10,12 +10,13 @@
     "C:\\Users\\alexc\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.16\\microsoft.aspnetcore.authorization.7.0.16.nupkg.sha512",
     "C:\\Users\\alexc\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.16\\microsoft.aspnetcore.components.7.0.16.nupkg.sha512",
     "C:\\Users\\alexc\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.16\\microsoft.aspnetcore.components.analyzers.7.0.16.nupkg.sha512",
+    "C:\\Users\\alexc\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\7.0.0\\microsoft.aspnetcore.components.authorization.7.0.0.nupkg.sha512",
     "C:\\Users\\alexc\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.16\\microsoft.aspnetcore.components.forms.7.0.16.nupkg.sha512",
     "C:\\Users\\alexc\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.16\\microsoft.aspnetcore.components.web.7.0.16.nupkg.sha512",
     "C:\\Users\\alexc\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.10\\microsoft.aspnetcore.cryptography.internal.7.0.10.nupkg.sha512",
     "C:\\Users\\alexc\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.10\\microsoft.aspnetcore.cryptography.keyderivation.7.0.10.nupkg.sha512",
     "C:\\Users\\alexc\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\7.0.10\\microsoft.aspnetcore.diagnostics.entityframeworkcore.7.0.10.nupkg.sha512",
-    "C:\\Users\\alexc\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.10\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.10.nupkg.sha512",
+    "C:\\Users\\alexc\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.0\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.0.nupkg.sha512",
     "C:\\Users\\alexc\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.10\\microsoft.aspnetcore.identity.ui.7.0.10.nupkg.sha512",
     "C:\\Users\\alexc\\.nuget\\packages\\microsoft.aspnetcore.metadata\\7.0.16\\microsoft.aspnetcore.metadata.7.0.16.nupkg.sha512",
     "C:\\Users\\alexc\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

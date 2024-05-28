@@ -1,104 +1,237 @@
 ﻿@page "/cardeditor"
 @using OtherPeopleRecordsWeb.Data
 @using Microsoft.EntityFrameworkCore
+@using System.Security.Claims
+@inject AuthenticationStateProvider AuthenticationStateProvider
 @inject ISnackbar Snackbar
 @inject IHttpClientFactory HttpClientFactory
 @inject ApplicationDbContext DbContext
 @attribute [Authorize(Roles = "Admin, Manager, Artist")]
-<MudContainer Class="d-flex flex-column justify-start align-start ma-0 pa-0" Style="width:100%; height:120vh; margin-top:40px!important; max-width: 90%">
-<MudStack Row="true">
-    <MudPaper Class="pa-4 mt-14" Style="width:50%">
-            <MudText Typo="Typo.h5">Gestión de Cards</MudText>
-            <EditForm Model="@_card" OnValidSubmit="@HandleSubmit">
-                <MudTabs Outlined="true">
-                    <MudTabPanel Text="Textos" Icon="@Icons.Material.Filled.TextFields">
-                        <MudSelect T="CardType" @bind-Value="@_card.cardType" Label="Tipo">
-                            <MudSelectItem Value="@CardType.Song">Song</MudSelectItem>
-                            <MudSelectItem Value="@CardType.Artist">Artist</MudSelectItem>
-                            <MudSelectItem Value="@CardType.Event">Event</MudSelectItem>
-                            <MudSelectItem Value="@CardType.Studio">Studio</MudSelectItem>
-                            <MudSelectItem Value="@CardType.Video">Video</MudSelectItem>
-                        </MudSelect>
-                        <MudTextField @bind-Value="@_card.Title" Label="Título" />
-                        <MudTextField @bind-Value="@_card.Subtitle" Label="Subtítulo" />
-                        @if (_card.cardType == CardType.Studio || _card.cardType == CardType.Event)
-                        {
-                            <MudTextField @bind-Value="@_card.Ubicacion" Label="Ubicacion" />
-                        }
-                    </MudTabPanel>
-                    <MudTabPanel Text="Links" Icon="@Icons.Material.Filled.InsertLink">
-                        @switch (_card.cardType)
-                        {
-                            case CardType.Song:
-                                <MudTextField @bind-Value="@_card.SpotifyLink" Label="SpotifyLink" />
-                                <MudTextField @bind-Value="@_card.YoutubeLink" Label="YoutubeLink" />
-                                <MudTextField @bind-Value="@_card.AppleMusicLink" Label="SoundCloudLink" />
-                                break;
-                            case CardType.Artist:
-                                <MudTextField @bind-Value="@_card.SpotifyLink" Label="SpotifyLink" />
-                                <MudTextField @bind-Value="@_card.InstagramLink" Label="InstagramLink" />
-                                <MudTextField @bind-Value="@_card.SoundCloudLink" Label="SoundCloudLink" />
-                                <MudTextField @bind-Value="@_card.BeatStarsLink" Label="BeatStarsLink" />
-                                break;
-                            case CardType.Video:
-                                <MudTextField @bind-Value="@_card.SpotifyLink" Label="SpotifyLink" />
-                                <MudTextField @bind-Value="@_card.YoutubeLink" Label="YoutubeLink" />
-                                <MudTextField @bind-Value="@_card.AppleMusicLink" Label="AppleMusicLink" />
-                                break;
-                        }
-                    </MudTabPanel>
-                    <MudTabPanel Text="Grafico" Icon="@Icons.Material.Filled.Image">
+<MudContainer Class="d-flex flex-column justify-start align-start ma-0 pa-0 d-flex justify-center" Style="width:100%; margin-top:50px!important; max-width: 90%">
+    @* //d-flex justify-center *@
+    <MudStack Row="true" Style="width:100%;" Class="">
+        <MudGrid Class="mt-4" Style="width:100%;">
+            @switch (cardProcessState)
+            {
+                case 0:
+                    <MudItem xs="6">
+                        <MudText Typo="Typo.h1">Selecciona el tipo de carta que quieres crear</MudText>
+                    </MudItem>
+                    <MudItem xs="6">
+                        <MudStack Class="mx-10">
+                            <MudButton OnClick="@(()=>SetCard(CardType.Song, "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/2f/81/af/2f81af2f-25c3-d5c2-9ea5-6d623ea22574/artwork.jpg/900x900cc-60.jpg"))" StartIcon="@Icons.Material.Filled.MusicNote" Variant="Variant.Filled" DisableElevation="true" Color="Color.Secondary">Cancion</MudButton>
+                            <MudButton OnClick="@(()=>SetCard(CardType.Video, "https://www.youtube.com/embed/nzMtQAdPgzg?si=TBAYY1RxdEJjCjp8"))" StartIcon="@Icons.Material.Sharp.OndemandVideo" Variant="Variant.Filled" DisableElevation="true" Color="Color.Secondary">Video</MudButton>
+                            <MudButton OnClick="@(()=>SetCard(CardType.Artist, "https://i.imgur.com/1RWl3XJ.jpeg"))" StartIcon="@Icons.Material.Sharp.EmojiPeople" Variant="Variant.Filled" DisableElevation="true" Color="Color.Secondary">Artista</MudButton>
+                            <MudButton OnClick="@(()=>SetCard(CardType.Studio, "https://i.imgur.com/uAvNdjr.jpeg"))" StartIcon="@Icons.Material.Sharp.SpeakerGroup" Variant="Variant.Filled" DisableElevation="true" Color="Color.Secondary">Estudio</MudButton>
+                            <MudButton OnClick="@(()=>SetCard(CardType.Event, "https://i.imgur.com/G33m8Od.jpeg"))" StartIcon="@Icons.Material.Sharp.LocalFireDepartment" Variant="Variant.Filled" DisableElevation="true" Color="Color.Secondary">Evento</MudButton>
+                        </MudStack>
+                    </MudItem>
+                    break;
+                    case 1:
+                    <MudItem xs="6">
+                        <MudText Typo="Typo.h1">Pon el titulo y el subtitulo</MudText>
+                    </MudItem>
+                    <MudItem xs="6">
+                        <MudStack Class="mx-10">
+                            <MudText Typo="Typo.h5">Titulo</MudText>
+                            <MudTextField @bind-Value="_card.Title" Label="Titulo" HelperText="Titulo" HelperTextOnFocus="true" Variant="Variant.Filled" Margin="Margin.Dense"></MudTextField>
+                            <MudText Typo="Typo.h5">Subtitulo</MudText>
+                            <MudTextField @bind-Value="_card.Subtitle" Label="Subtitulo" HelperText="Subtitulo" HelperTextOnFocus="true" Variant="Variant.Filled" Margin="Margin.Dense"></MudTextField>
+                        </MudStack>
+                    </MudItem>
+                    break;
+                    case 2:
+                    <MudItem xs="6">
+                        <MudText Typo="Typo.h1">Ahora añade los enlaces que quieras</MudText>
+                    </MudItem>
+                    <MudItem xs="6">
+                        <MudStack Class="mx-10">
+                            @switch (_card.cardType)
+                            {
+                                case CardType.Song:
+
+                                    <MudText Typo="Typo.h5">SpotifyLink</MudText>
+                                    <MudTextField @bind-Value="_card.SpotifyLink" Variant="Variant.Filled" Margin="Margin.Dense"></MudTextField>
+                                    <MudText Typo="Typo.h5">YoutubeLink</MudText>
+                                    <MudTextField @bind-Value="_card.YoutubeLink" Variant="Variant.Filled" Margin="Margin.Dense"></MudTextField>
+                                    <MudText Typo="Typo.h5">AppleMusicLink</MudText>
+                                    <MudTextField @bind-Value="_card.AppleMusicLink" Variant="Variant.Filled" Margin="Margin.Dense"></MudTextField>
+                                    break;
+                                case CardType.Artist:
+
+                                    <MudText Typo="Typo.h5">SpotifyLink</MudText>
+                                    <MudTextField @bind-Value="_card.SpotifyLink" Variant="Variant.Filled" Margin="Margin.Dense"></MudTextField>
+                                    <MudText Typo="Typo.h5">InstagramLink</MudText>
+                                    <MudTextField @bind-Value="_card.InstagramLink" Variant="Variant.Filled" Margin="Margin.Dense"></MudTextField>
+                                    <MudText Typo="Typo.h5">SoundCloudLink</MudText>
+                                    <MudTextField @bind-Value="_card.SoundCloudLink" Variant="Variant.Filled" Margin="Margin.Dense"></MudTextField>
+                                    <MudText Typo="Typo.h5">BeatStarsLink</MudText>
+                                    <MudTextField @bind-Value="_card.BeatStarsLink" Variant="Variant.Filled" Margin="Margin.Dense"></MudTextField>
+
+                                    break;
+                                case CardType.Video:
+                                    <MudTextField @bind-Value="@_card.SpotifyLink" Label="SpotifyLink" />
+                                    <MudTextField @bind-Value="@_card.YoutubeLink" Label="YoutubeLink" />
+                                    <MudTextField @bind-Value="@_card.AppleMusicLink" Label="AppleMusicLink" />
+
+
+                                    <MudText Typo="Typo.h5">SpotifyLink</MudText>
+                                    <MudTextField @bind-Value="_card.SpotifyLink" Label="SpotifyLink" HelperText="SpotifyLink" HelperTextOnFocus="true" Variant="Variant.Filled" Margin="Margin.Dense"></MudTextField>
+                                    <MudText Typo="Typo.h5">YoutubeLink</MudText>
+                                    <MudTextField @bind-Value="_card.YoutubeLink" Label="YoutubeLink" HelperText="YoutubeLink" HelperTextOnFocus="true" Variant="Variant.Filled" Margin="Margin.Dense"></MudTextField>
+                                    <MudText Typo="Typo.h5">AppleMusicLink</MudText>
+                                    <MudTextField @bind-Value="_card.AppleMusicLink" Label="AppleMusicLink" HelperText="AppleMusicLink" HelperTextOnFocus="true" Variant="Variant.Filled" Margin="Margin.Dense"></MudTextField>
+
+                                    break;
+                            }
+                        </MudStack>
+                    </MudItem>
+                    break;
+                case 3:
+                    <MudItem xs="6">
                         @if (_card.cardType == CardType.Video)
                         {
-                            <MudTextField @bind-Value="@_card.VIDEO" Label="VIDEO" />
+                            <MudText Typo="Typo.h1">Por ultimo añadele el enlace del video</MudText>
                         }
                         else
                         {
-                            <MudTextField @bind-Value="@_card.IMG" Label="IMG" />
-                            <InputFile OnChange="@OnInputFileChange" />
+                            <MudText Typo="Typo.h1">Por ultimo añadele la imagen</MudText>
                         }
-                        <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled">Guardar</MudButton>
-                    </MudTabPanel>
-                </MudTabs>
-        </EditForm>
-    </MudPaper>
-    <OTPCard card="_card" FromLeft="true"></OTPCard>
-</MudStack>
-    @if (_cards != null)
-    {
-        <MudPaper Class="pa-4 mt-14" Style="width:100%">
-        <MudTable Items="@_cards">
-            <HeaderContent>
-                <MudTh>Título</MudTh>
-                <MudTh>Subtítulo</MudTh>
-                <MudTh>Tipo</MudTh>
-                <MudTh>Opciones</MudTh>
-            </HeaderContent>
-            <RowTemplate>
-                <MudTd DataLabel="Título">@context.Title</MudTd>
-                    <MudTd DataLabel="Subtítulo">@context.Subtitle</MudTd>
-                    <MudTd DataLabel="Tipo">@context.cardType</MudTd>
-                <MudTd>
-                    <MudButton Variant="Variant.Outlined" Color="Color.Primary" OnClick="() => EditCard(context)">Editar</MudButton>
-                    <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="() => DeleteCard(context)">Eliminar</MudButton>
-                </MudTd>
-            </RowTemplate>
-        </MudTable>
-        </MudPaper>
-    }
+                    </MudItem>
+                    <MudItem xs="6" Style="display: flex; align-items: center;">
+                        <MudStack Class="mx-10">
+                            @if (_card.cardType == CardType.Video)
+                            {
+                                <MudText Typo="Typo.h5">Link Video</MudText>
+                                <MudTextField @bind-Value="@_card.VIDEO" Label="VIDEO" />
+                            }
+                            else
+                            {
+                                <MudText Typo="Typo.h5">Link Imagen</MudText>
+                                <MudTextField @bind-Value="@_card.IMG" Label="IMG" />
+                                <InputFile OnChange="@OnInputFileChange" />
+                            }
+                        </MudStack>
+                </MudItem>
+                    break;
+                case 4:
+                    @if (_cards != null)
+                    {
+                        <MudItem xs="12" Class="" Style="display: flex; align-items: center;">
+                            <MudStack Style="width:100%">
+                                <MudFab OnClick="@(()=>CreateNewCard())" Color="Color.Secondary" StartIcon="@Icons.Material.Filled.Add" Size="Size.Large" />
+                                <MudPaper Class="pa-4 " Style="width:100%; ">
+                                    <MudTable Items="@_cards">
+                                        <HeaderContent>
+                                            <MudTh>Título</MudTh>
+                                            <MudTh>Subtítulo</MudTh>
+                                            <MudTh>Tipo</MudTh>
+                                            <MudTh>Opciones</MudTh>
+                                        </HeaderContent>
+                                        <RowTemplate>
+                                            <MudTd DataLabel="Título">@context.Title</MudTd>
+                                            <MudTd DataLabel="Subtítulo">@context.Subtitle</MudTd>
+                                            <MudTd DataLabel="Tipo">@context.cardType</MudTd>
+                                            <MudTd>
+                                                <MudButton Variant="Variant.Outlined" Color="Color.Primary" OnClick="() => EditCard(context)">Editar</MudButton>
+                                                <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="() => DeleteCard(context)">Eliminar</MudButton>
+                                            </MudTd>
+                                        </RowTemplate>
+                                    </MudTable>
+                                </MudPaper>
+                            </MudStack>
+                        </MudItem>
+                    }
+                    break;
+            }
+            @if (cardProcessState != 4)
+            
+            {
+                <MudItem xs="2" Style="width:200px" Class="d-flex align-center">
+                    <MudFab OnClick="@(()=>Last())" StartIcon="@Icons.Material.Filled.ArrowBackIos" Label="@(cardProcessState == 0 ? "Editar" : "Atras")" Color="Color.Secondary" />
+                </MudItem>
+                <MudItem xs="8" Style="width:200px">
+                    <OTPCard card="_card" FromLeft="true"></OTPCard>
+                </MudItem>
+                <MudItem xs="2" Style="width:200px" Class="d-flex align-center justify-end">
+                    <MudFab OnClick="@(()=>Next())" EndIcon="@Icons.Material.Filled.ArrowForwardIos" Label="@(cardProcessState == 3 ? "Guardar" : "Siguiente")" Color="Color.Secondary" />
+                </MudItem>
+            }
+            
+        </MudGrid>
+    </MudStack>
 </MudContainer>
 
 @code {
+    private int cardProcessState = 0;
     private Card _card = new();
     private List<Card> _cards = new();
     private ElementReference fileInput;
+    private AuthenticationState authState;
+    private ClaimsPrincipal user;
+    private IList<string> roles;
+    private string nameIdentifier;
+
 
     protected override async Task OnInitializedAsync()
     {
-        _cards = DbContext.Cards.ToList();
+
+        authState = await AuthenticationStateProvider.GetAuthenticationStateAsync();
+        user = authState.User;
+        nameIdentifier = user.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        _card.UserId = new Guid(nameIdentifier);
+        roles = user.Claims
+                    .Where(c => c.Type == ClaimTypes.Role)
+                    .Select(c => c.Value)
+                    .ToList();
+        _cards = DbContext.Cards.Where(c => c.UserId == _card.UserId || user.FindFirst(ClaimTypes.Role).Value == "Admin").OrderByDescending(c => c.date).ToList();
     }
 
+    private async Task Next()
+    {
+        if (cardProcessState == 3)
+        {
+            await HandleSubmit();
+            cardProcessState++;
+        }
+        else if (cardProcessState == 4)
+        {
+            cardProcessState = 0;
+        }
+        else
+        {
+            cardProcessState++;
+        }
+        StateHasChanged();
+    }
 
+    private void Last()
+    {
+        if (cardProcessState == 0)
+        {
+            cardProcessState = 4;
+        }
+        else
+        {
+            cardProcessState--;
+        }
+        StateHasChanged();
+    }
+
+    private void SetCard(CardType cardType, string img)
+    {
+        _card.cardType = cardType;
+        if (cardType == CardType.Video)
+        {
+            _card.VIDEO = img;
+        }
+        else
+        {
+            _card.IMG = img;
+        }
+        
+        StateHasChanged();
+    }
 
     private async Task OnInputFileChange(InputFileChangeEventArgs e)
     {
@@ -156,6 +289,7 @@
             cardEntity.VIDEO = _card.VIDEO;
             cardEntity.cardType = _card.cardType;
             cardEntity.date = _card.date;
+            cardEntity.UserId = _card.UserId;
 
             if (_card.Id == Guid.Empty)
             {
@@ -179,24 +313,16 @@
 
     private void EditCard(Card card)
     {
-        _card = new Card
-            {
-                Id = card.Id,
-                Title = card.Title,
-                Subtitle = card.Subtitle,
-                SpotifyLink = card.SpotifyLink,
-                YoutubeLink = card.YoutubeLink,
-                AppleMusicLink = card.AppleMusicLink,
-                InstagramLink = card.InstagramLink,
-                SoundCloudLink = card.SoundCloudLink,
-                BeatStarsLink = card.BeatStarsLink,
-                TwitterLink = card.TwitterLink,
-                Ubicacion = card.Ubicacion,
-                IMG = card.IMG,
-                VIDEO = card.VIDEO,
-                cardType = card.cardType,
-                date = card.date,
-            };
+        _card = new Card(card);
+        Next();
+        StateHasChanged();
+    }
+
+    private void CreateNewCard()
+    {
+        _card = new();
+        Next();
+        StateHasChanged();
     }
 
     private async Task DeleteCard(Card card)
@@ -205,5 +331,6 @@
         await DbContext.SaveChangesAsync();
         await OnInitializedAsync();
         _card = new Card();
+        StateHasChanged();
     }
 }

@@ -8,8 +8,9 @@
     ".NETCoreApp,Version=v7.0": {
       "OtherPeopleRecordsWeb/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": "7.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "7.0.10",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.10",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.0",
           "Microsoft.AspNetCore.Identity.UI": "7.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.10",
@@ -87,6 +88,12 @@
         }
       },
       "Microsoft.AspNetCore.Components.Analyzers/7.0.16": {},
+      "Microsoft.AspNetCore.Components.Authorization/7.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "7.0.16",
+          "Microsoft.AspNetCore.Components": "7.0.16"
+        }
+      },
       "Microsoft.AspNetCore.Components.Forms/7.0.16": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "7.0.16"
@@ -143,15 +150,15 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/7.0.10": {
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/7.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "7.0.10",
           "Microsoft.Extensions.Identity.Stores": "7.0.10"
         },
         "runtime": {
           "lib/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
-            "assemblyVersion": "7.0.10.0",
-            "fileVersion": "7.0.1023.36439"
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51819"
           }
         }
       },
@@ -879,6 +886,13 @@
       "path": "microsoft.aspnetcore.components.analyzers/7.0.16",
       "hashPath": "microsoft.aspnetcore.components.analyzers.7.0.16.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Components.Authorization/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9YmIsHP+YRhTSsvHcuQkbk5LO322rj4vYgtBulp1UPfhak/cjnmnqAu6Lu7D4ayzAlEEC4KaR86PZjz8PKOWPA==",
+      "path": "microsoft.aspnetcore.components.authorization/7.0.0",
+      "hashPath": "microsoft.aspnetcore.components.authorization.7.0.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Components.Forms/7.0.16": {
       "type": "package",
       "serviceable": true,
@@ -914,12 +928,12 @@
       "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/7.0.10",
       "hashPath": "microsoft.aspnetcore.diagnostics.entityframeworkcore.7.0.10.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/7.0.10": {
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/7.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XEDAT/rsvjTC5BCjF8ia+BPPHiiL6X6HQZONqV7EWzE00B5CrCZ5aYe4IvJ41aUGcFWDClbHEpsuciTH63GZpw==",
-      "path": "microsoft.aspnetcore.identity.entityframeworkcore/7.0.10",
-      "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.7.0.10.nupkg.sha512"
+      "sha512": "sha512-mtomuG24wGpvdblVQUj/JHIZ1i8oNhRNHr0V0re8fTkv15hz+AQLdtwbdd6FdINNeXiKi3kGmzZ7PE1KOyzoSg==",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/7.0.0",
+      "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.7.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Identity.UI/7.0.10": {
       "type": "package",
